@@ -536,6 +536,17 @@ enum ipa_rm_resource_name {
  * @IPA_HW_v3_5: IPA hardware version 3.5
  * @IPA_HW_v3_5_1: IPA hardware version 3.5.1
  * @IPA_HW_v4_0: IPA hardware version 4.0
+ * @IPA_HW_v4_1: IPA hardware version 4.1
+ * @IPA_HW_v4_2: IPA hardware version 4.2
+ * @IPA_HW_v4_5: IPA hardware version 4.5
+ * @IPA_HW_v4_7: IPA hardware version 4.7
+ * @IPA_HW_v4_9: IPA hardware version 4.9
+ * @IPA_HW_v4_11: IPA hardware version 4.11
+ * @IPA_HW_v5_0: IPA hardware version 5.0
+ * @IPA_HW_v5_1: IPA hardware version 5.1
+ * @IPA_HW_v5_2: IPA hardware version 5.2
+ * @IPA_HW_v5_5: IPA hardware version 5.5
+ * @IPA_HW_v6_0: IPA hardware version 6.0
  */
 enum ipa_hw_type {
 	IPA_HW_None = 0,
@@ -551,6 +562,17 @@ enum ipa_hw_type {
 	IPA_HW_v3_5 = 12,
 	IPA_HW_v3_5_1 = 13,
 	IPA_HW_v4_0 = 14,
+	IPA_HW_v4_1 = 15,
+	IPA_HW_v4_2 = 16,
+	IPA_HW_v4_5 = 17,
+	IPA_HW_v4_7 = 18,
+	IPA_HW_v4_9 = 19,
+	IPA_HW_v4_11 = 20,
+	IPA_HW_v5_0 = 21,
+	IPA_HW_v5_1 = 22,
+	IPA_HW_v5_2 = 23,
+	IPA_HW_v5_5 = 24,
+	IPA_HW_v6_0 = 25,
 };
 #define IPA_HW_MAX (IPA_HW_v4_0 + 1)
 
